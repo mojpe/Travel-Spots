@@ -1,0 +1,31 @@
+
+        <tr>
+          <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
+            <br><br>
+            Sample Footer text: © 2015 Acme, Inc.
+            <br><br>
+
+            You are receiving this email because you opted in on our website. Update your <a href="#" style="color:#aaaaaa">email preferences</a> or <a href="#" style="color:#aaaaaa">unsubscribe</a>.
+            <br><br>
+
+            <strong>COMPANY NAME</strong><br>
+            <span class="ios-footer">
+                ADDRESS<br>
+            </span>
+            <a href="#" style="color:#aaaaaa">{{mail_sender}}</a><br>
+
+            <br><br>
+
+          </td>
+        </tr>
+      </table>
+<!--/600px container -->
+
+
+    </td>
+  </tr>
+</table>
+<!--/100% background wrapper-->
+
+</body>
+</html>

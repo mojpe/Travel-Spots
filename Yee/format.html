@@ -1,0 +1,59 @@
+{% include "./common/header.tpl" %}
+
+<section>
+
+    <div class="background-image-holder">
+        <img src="/img/hero18.jpg" class="background-image" alt="Poster Image For Mobiles">
+    </div>
+
+    <div class="container">
+
+        <div class="col-sm-12 text-center">
+            <h1>Welcome {{accountData.first_name}}</h1>
+        </div>
+
+        <!-- Error message box -->
+        <div class="message-box" id="message-box" role="alert">
+            <p class="message-text" id="message-text"></p>
+        </div>
+        <!-- END Error message box -->
+
+        <div class="row text-center">
+
+            <!-- Left Column -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                Side-Bar
+            </div>
+            <!-- END Left Column -->
+
+            <!-- Center Column -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="edit-container">
+                    <div class="col-sm-12">
+                        <button id="edited" class="btn btn-info">Lock / Unlock edit</button>
+                    </div>
+                    <div class="col-sm-12">
+                        <span>First name:</span>
+                        <a href="#" id="firstname">{{accountData.first_name}}</a>
+                        <!--- data-type="text" data-pk="1" data-url="" data-title="Enter firstname" --->
+                    </div>
+                    <div class="col-sm-12">
+                        <span>Last name:</span>
+                        <a href="#" id="lastname">{{accountData.last_name}}</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END Center Column -->
+
+            <!-- Right Column -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                More Data
+            </div>
+            <!-- END Right Column -->
+        </div>
+    </div>
+
+</section>
+
+{% include "./common/footer.tpl" %}
+
